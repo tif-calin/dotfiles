@@ -1,0 +1,17 @@
+# see: https://macos-defaults.com/
+# see: https://mths.be/macos
+
+### SETUP ###
+# Close any open System Preferences panes, to prevent them from overriding settings we’re about to change
+osascript -e 'tell application "System Preferences" to quit'
+# Ask for the administrator password upfront
+sudo -v
+
+### SETTINGS ###
+# Always show hidden files
+defaults write com.apple.finder "AppleShowAllFiles" -bool "true" && killall Finder
+# Disable automatic capitalization
+defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
+
+### COMPLETED ###
+echo "Done. Note that some of these changes require a logout/restart to take effect."
