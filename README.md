@@ -3,14 +3,6 @@ _Inspired by_
 - https://dotfiles.github.io/
 - https://old.reddit.com/r/dotfiles/
 
-## Project files
-- `.github/pull_request_template.md`
-- `.gitignore` [generator](https://www.toptal.com/developers/gitignore), [templates](https://github.com/github/gitignore)
-- `.prettierrc.json`
-- `.vscode/settings.json`
-- [`humans.txt`](https://humanstxt.org/)
-- [`robots.txt`](https://www.robotstxt.org/)
-
 ## Software for a new computer
 _Inspired by https://ninite.com/_
 - Firefox (browser)

@@ -1,0 +1,5 @@
+# generator: https://www.toptal.com/developers/gitignore
+# templates: https://github.com/github/gitignore
+
+# MacOS
+.DS_Store
