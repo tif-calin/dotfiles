@@ -8,10 +8,17 @@ osascript -e 'tell application "System Preferences" to quit'
 sudo -v
 
 ### SETTINGS ###
+# Set dock to left side
+defaults write com.apple.dock "orientation" -string "left" && killall Dock
 # Always show hidden files
 defaults write com.apple.finder "AppleShowAllFiles" -bool "true" && killall Finder
+# Always show file extensions
+defaults write NSGlobalDomain "AppleShowAllExtensions" -bool "true" && killall Finder
 # Disable automatic capitalization
 defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
+
+# Other settings
+#  - setup nightshift!
 
 ### COMPLETED ###
 echo "Done. Note that some of these changes require a logout/restart to take effect."
