@@ -1,3 +1,7 @@
+# 0. see global config location with `git config --list --show-origin`, probably /Users/<whoami>/.gitconfig
+# 1. run `git config --global user.email ""` and `user.name ""`
+# 2. cache GH creds in git. Run `brew install git-credential-manager`
+
 [alias]
 	# list branches
 	lb = "!git reflog show --pretty=format:'%gs ~ %gd' --date=relative | grep 'checkout:' | grep -oE '[^ ]+ ~ .*' | awk -F~ '!seen[$1]++' | head -n 16 | awk -F' ~ HEAD@{' '{printf(\" \\033[33m%14s\\033[37m: \\033[0m%s\\n\", substr($2, 1, length($2) - 1), $1)}'"
@@ -9,3 +13,4 @@
 [fetch]
 	# delete orphaned git objects and deleted branches
 	prune = true
+[user]

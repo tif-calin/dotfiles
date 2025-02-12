@@ -32,3 +32,7 @@ This directory is meant to be a list of resources that I use to take my tests an
    - Bob and Alice are commonly used in cryptography examples.
    - John and Jane Doe
    - Jack and Jill
+
+### other
+* [O'Reilly Animal Menagerie](https://www.oreilly.com/animals.csp)
+* [DiceBear API](https://www.dicebear.com/styles/)

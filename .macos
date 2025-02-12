@@ -18,7 +18,9 @@ defaults write NSGlobalDomain "AppleShowAllExtensions" -bool "true" && killall F
 defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 
 # Other settings
-#  - setup nightshift!
+#  - Nightshift: enable from sunset to sunrise
+#  - Trackpad Gestures: swipe with 3 fingers
+#  - Accessibility: use trackpad gesture to zoom
 
 ### COMPLETED ###
 echo "Done. Note that some of these changes require a logout/restart to take effect."
